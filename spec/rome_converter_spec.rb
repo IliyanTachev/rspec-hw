@@ -68,11 +68,11 @@ describe RomeConverter do
 	
 
 	it "check for I" do
-                expect(RomeConverter.new().to_rome("I")).to eq(1)
+                expect(RomeConverter.new().to_dec("I")).to eq(1)
         end
 
 	it "check for IV" do
-                expect(RomeConverter.new().to_rome("IV")).to eq(4)
+                expect(RomeConverter.new().to_dec("IV")).to eq(4)
         end
 	
 	it "check for V" do
@@ -88,7 +88,7 @@ describe RomeConverter do
         end
 
 	it "check for XIX" do
-                expect(RomeConverter.new().to_rome("XIX")).to eq(19)
+                expect(RomeConverter.new().to_dec("XIX")).to eq(19)
         end
 
 	it "check for LIX" do
@@ -96,7 +96,7 @@ describe RomeConverter do
         end
 
 	it "check for XC" do
-                expect(RomeConverter.new().to_rome("XC")).to eq(90)
+                expect(RomeConverter.new().to_dec("XC")).to eq(90)
         end
 
 	it "check for CLI" do
